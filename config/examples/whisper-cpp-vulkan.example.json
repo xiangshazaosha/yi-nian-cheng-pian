@@ -1,0 +1,19 @@
+{
+  "schemaVersion": 1,
+  "environmentScope": "target-windows-x64-host-only; re-evaluate on GPU/driver/OS change",
+  "engine": "whisper.cpp",
+  "version": "REPLACE_WITH_INSTALLED_VERSION",
+  "binary": "tools/whisper-cpp/bin/whisper-cli.exe",
+  "binarySha256": "REPLACE_WITH_ACTUAL_SHA256",
+  "model": "tools/whisper-cpp/models/ggml-large-v3.bin",
+  "modelName": "large-v3",
+  "modelSha256": "REPLACE_WITH_ACTUAL_SHA256",
+  "expectedGpuName": "REPLACE_WITH_NAME_FROM_REAL_GPU_LOG",
+  "environment": {},
+  "extraCliArguments": ["-nfa", "--device", "0", "-mc", "0"],
+  "defaultLanguage": "zh",
+  "defaultThreads": 4,
+  "inferenceStatus": "not-validated",
+  "productionQualityStatus": "not-validated",
+  "autoFallback": false
+}

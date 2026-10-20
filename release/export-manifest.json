@@ -1,0 +1,741 @@
+{
+  "contentSha256": "e53483a2251805af99b8bfbf80420ca657593a403f1a8a68ef2537254f93f4b2",
+  "files": {
+    ".agents/skills/remotion-production/SKILL.md": {
+      "bytes": 1257,
+      "sha256": "f008b1fc066803379967e253100709e8a22c7070bf6f1e1d979bbc7ace083d60"
+    },
+    ".gitattributes": {
+      "bytes": 77,
+      "sha256": "01411361f1ecf934110e31cc264e2af6072527db23e851a84e34b493ab90ea73"
+    },
+    ".github/workflows/checks.yml": {
+      "bytes": 817,
+      "sha256": "a2c51936c8b48d6deab643575c543617e2b234f45864d075717f6da8e8a08cd2"
+    },
+    ".gitignore": {
+      "bytes": 1609,
+      "sha256": "f866afd9272977e8efbb904de27a64999d6c413cde0e56b9ea5a5826ca3b9389"
+    },
+    "AGENTS.md": {
+      "bytes": 5120,
+      "sha256": "785468c7a7d3b867869f569e4e9677b408e480efbebd614949dc63a137042d21"
+    },
+    "CHANGELOG.md": {
+      "bytes": 562,
+      "sha256": "1ab26c10057550340e1e296f01df1a0092d8332afb27945723c0d75e0181b6c9"
+    },
+    "CONTRIBUTING.md": {
+      "bytes": 858,
+      "sha256": "3ac81cd0ffdf8033a548d3ce7decdc7ae389ea2311ee9493aca9f37c6fe4dce7"
+    },
+    "LICENSE": {
+      "bytes": 18048,
+      "sha256": "6ca8d09349f6ce27427a37ac3cb589529b5c3cfbaf89c99d4096737ab6da5027"
+    },
+    "NOTICE": {
+      "bytes": 1793,
+      "sha256": "a9dcf5fdb73b0453980a42faa95f008882cadfa8a1201822929c095dced4d52f"
+    },
+    "README.md": {
+      "bytes": 3431,
+      "sha256": "150f630e6705e7306f57a10ed64882e91005ce96440434ca2532a8464798aa40"
+    },
+    "SECURITY.md": {
+      "bytes": 660,
+      "sha256": "7ddbdbfbb252bb7fdfecbb90df9b2c4e538cc06546bd76d82caeda31a6841ab4"
+    },
+    "THIRD-PARTY-NOTICES.md": {
+      "bytes": 5423,
+      "sha256": "acd896fd3c52bb46ebb29d7cb2cdeafe8f92e6d1c002f2443fe3fbb4fc610b1b"
+    },
+    "asr-inbox/README.md": {
+      "bytes": 3507,
+      "sha256": "704e2f9e031bce6d10529d1f8acaf28ec5f53d7e19250ca07548efdb75d11f46"
+    },
+    "config/examples/whisper-cpp-vulkan.example.json": {
+      "bytes": 724,
+      "sha256": "5ec2761030dd964bfe3c066d7ce07baced0eabadb3270f4b99aa3fe260d8f46c"
+    },
+    "deliverables/final-videos/README.md": {
+      "bytes": 1550,
+      "sha256": "456ca1ceb8154ee5290b6fd67cd70ff599229ed6f475cee182bcc36019e1c98a"
+    },
+    "docs/01-reference-analysis.md": {
+      "bytes": 6181,
+      "sha256": "6fc241ca01158c20fb5776e59427a2e811fa485526d2a311bd4346c93bd4df0f"
+    },
+    "docs/02-content-planning.md": {
+      "bytes": 13192,
+      "sha256": "efde1ff59d816b91c96d281c5d92ab9f1d09a470c276e0b7c78391dee81969cf"
+    },
+    "docs/03-remotion-production.md": {
+      "bytes": 20451,
+      "sha256": "03c0463ad3eed6b66b030bb573412d18fc64c95e078208899c5e87c6e08be363"
+    },
+    "docs/LICENSE-HISTORY.md": {
+      "bytes": 1180,
+      "sha256": "ecb7d0e1ec4dfb4e0be00a19114d17a4be5101a352b29d291812fecccb91b208"
+    },
+    "docs/delivery-copy-and-tags.md": {
+      "bytes": 1690,
+      "sha256": "06a1794765c1698c5424bf0d956558d5f64653efb4b11b1b4d4d6a2b636e187a"
+    },
+    "docs/licensing.md": {
+      "bytes": 3708,
+      "sha256": "01f85b2db05ab48ca0496a6fb76a1b9525b23e044a0db8d3a5d284a38c6987fc"
+    },
+    "docs/packaging-library/README.md": {
+      "bytes": 6387,
+      "sha256": "0163778feab494c9f66d5122579e2a49ad5238dac0926f51a3185097189a63f9"
+    },
+    "docs/packaging-library/animations/fade.md": {
+      "bytes": 4297,
+      "sha256": "9605edad5d0aaed9a779367038a45cf6baea84da10e4414a4afd543deb876db9"
+    },
+    "docs/packaging-library/animations/pulse.md": {
+      "bytes": 3933,
+      "sha256": "e2e787be1f890b0bb49b6301aa3686b3beb9eaddf157bdd5e3fa1705f06f4c02"
+    },
+    "docs/packaging-library/animations/spring-scale-enter.md": {
+      "bytes": 5878,
+      "sha256": "ffda3f4fd86bfcbeb5ffa0c38e6f0ce5ad66bebde16d897c87b4fce962025394"
+    },
+    "docs/packaging-library/animations/title-slide-in.md": {
+      "bytes": 4223,
+      "sha256": "daa0d470c8ed3a87a8ff173d63dc958d24971a22df8dcc5a9fb58e96e18df7be"
+    },
+    "docs/packaging-library/components/annotation-line.md": {
+      "bytes": 3565,
+      "sha256": "a06e6a09627c6f0711ac509ae77c22d579e26e32ea1f703f63a7138634de07fa"
+    },
+    "docs/packaging-library/components/caption-bar.md": {
+      "bytes": 5098,
+      "sha256": "f6f5bcd2e644624f3719dad12f77a8b0905ac7d5baefff8e05a82dea208aec64"
+    },
+    "docs/packaging-library/components/circular-avatar.md": {
+      "bytes": 5508,
+      "sha256": "577e301babfe27caa5639d61413406405e132aad177cb1aeddc4cb2239e167ee"
+    },
+    "docs/packaging-library/components/cursor-pointer.md": {
+      "bytes": 5449,
+      "sha256": "b76eaff1cb9011b774c4d815a07d5c874205facec5ae90e260b3c0e5d9633b16"
+    },
+    "docs/packaging-library/components/glow-title.md": {
+      "bytes": 4029,
+      "sha256": "0bb3bb6c0037eff7ad678179045727d6cca0d3bddda5c89c45e848c7194d3dc2"
+    },
+    "docs/packaging-library/components/highlight-box.md": {
+      "bytes": 4877,
+      "sha256": "f0c7087bf67dc031ea36be00052837b86b722bb9b34e839d92b47fa2318fd03a"
+    },
+    "docs/packaging-library/components/highlight-tag.md": {
+      "bytes": 5762,
+      "sha256": "98736cfc0aab1ef788843ba3e60133d8f002f27db24961cd3da01a2559020dab"
+    },
+    "docs/packaging-library/components/rounded-ui-frame.md": {
+      "bytes": 8680,
+      "sha256": "e401774585d3a5ecdc7ef5746c38060f5a6a08ce0c668adfe921241cc8376929"
+    },
+    "docs/packaging-library/components/step-flow-bar.md": {
+      "bytes": 5298,
+      "sha256": "2d46107a84ea46c8fe6909e7ed5aa0c4d7bcb138590f96c2c66f59f5e2371d60"
+    },
+    "docs/packaging-library/components/step-list.md": {
+      "bytes": 5830,
+      "sha256": "579a274da5c22ff36a0b9f9cc4b721720793044ea7e5d795955bc94c0967de5f"
+    },
+    "docs/packaging-library/components/texture-background.md": {
+      "bytes": 3712,
+      "sha256": "49e61a8d76fb37600d3b1a5242281ca6c3f1dd2ef5881b7001d82828d36797d1"
+    },
+    "docs/packaging-library/extension-rules.md": {
+      "bytes": 6667,
+      "sha256": "973c83cdd1ffc81635b6b0951089ae09a19ecb74d80ad0a750319390ec6a244c"
+    },
+    "docs/packaging-library/layouts/a-roll-fullscreen.md": {
+      "bytes": 5587,
+      "sha256": "7249dd70958dda0a72faf86da3eddfa8b5d37ff2ac690348054a27be833cf391"
+    },
+    "docs/packaging-library/layouts/b-roll-fullscreen-mask.md": {
+      "bytes": 6709,
+      "sha256": "8be6beeca79d90a4286aeb6a54516ac456b3490e119fa0ee05e8e7b6f900561f"
+    },
+    "docs/packaging-library/layouts/b-roll-rounded-ui.md": {
+      "bytes": 6222,
+      "sha256": "e41298bc9ce8c4eb50f3e9b6fe83276826fefd84a483749ef448d7c788e37be5"
+    },
+    "docs/packaging-library/masks/circle-clip.md": {
+      "bytes": 5129,
+      "sha256": "79b5f313b817fc693265ac911642dce3115f4b65dab934c30bf1d63f5e76a3a6"
+    },
+    "docs/packaging-library/masks/dark-overlay.md": {
+      "bytes": 4727,
+      "sha256": "3772712a74ba471625e6dc9e2e3cd3a86376b80ccdeeef420e6629f7ae8111bb"
+    },
+    "docs/packaging-library/masks/radial-vignette.md": {
+      "bytes": 3221,
+      "sha256": "6fad6f32d4f851e3e162880c6eac7de94e2eaefe284e4ae9d8046fc22dcb3b6c"
+    },
+    "docs/packaging-library/pitfalls.md": {
+      "bytes": 34070,
+      "sha256": "479eddf65b38f0bccfbbed8500cf95e3e62673856cab939ac404bb1b2a2aa6f2"
+    },
+    "docs/packaging-library/sfx-download-list.md": {
+      "bytes": 983,
+      "sha256": "01ee922be8a578433987cdb20145b5de579a6949949325b468a907ecc5785b83"
+    },
+    "docs/packaging-library/sfx-rules.md": {
+      "bytes": 15080,
+      "sha256": "686d4b62ad1a95da82d60471490fae42019e97ede20404faad076b74a0544300"
+    },
+    "docs/packaging-library/transitions/a-roll-b-roll-cross.md": {
+      "bytes": 6225,
+      "sha256": "85e59adf48a4108966cd1eda587323825844213db09779a473f484a67faca11a"
+    },
+    "docs/packaging-library/transitions/a-roll-to-circular-avatar.md": {
+      "bytes": 2611,
+      "sha256": "21576004c786dbc4db73d1e9b707ee4ed032b8b5921f5f56dc25eb7dcd1181e6"
+    },
+    "docs/packaging-library/transitions/segment-handoff.md": {
+      "bytes": 7508,
+      "sha256": "0cc16aac325ccd848a866cec3d1afae78fbad6d5aa8edc86a54a073bd74ead05"
+    },
+    "docs/packaging-library/user-sfx-assets.md": {
+      "bytes": 1167,
+      "sha256": "35be69e49fa09588bcac68c964999d1811a60827b046b6ebb2002646abff7885"
+    },
+    "docs/public-release-scope.md": {
+      "bytes": 1711,
+      "sha256": "0bd129095a18d5e4a317c4e62cfc5fdb916318f8b86631ae79797a73b9967414"
+    },
+    "docs/publishing-materials-agent-interface.md": {
+      "bytes": 1543,
+      "sha256": "fc5768be9a70669a58b69c48df3b0567a1cddd9e02986edc38be3a20d879b9ea"
+    },
+    "docs/reference-styles/README.md": {
+      "bytes": 6566,
+      "sha256": "9035f710784d9eada020bbc9d6e28e3712f1e3f02971776a323df9d810ac039e"
+    },
+    "docs/reference-styles/common-rules.md": {
+      "bytes": 6802,
+      "sha256": "c6936e0d1a77838e89276bc50e2a7c8578d2aa92affbc8f043fcdadce138afeb"
+    },
+    "docs/reference-styles/双色类/AI干进专业工作-阶段1-风格归档.md": {
+      "bytes": 12665,
+      "sha256": "21654efd774cf7ab84c6e13101641377d1302ea985b87138cf7e5cbab7d293bf"
+    },
+    "docs/reference-styles/哑光绿蓝风/README.md": {
+      "bytes": 9751,
+      "sha256": "574292d4bb14c08a4d1d0a17f0ab4676d1ce09b0a87ba54411c6b70774a4fe3b"
+    },
+    "docs/reference-styles/哑光蓝绿风/README.md": {
+      "bytes": 3708,
+      "sha256": "8ab3493e34c3ef3cc938ad9983fa8daa6ee1fe6e124291e76272c2342c938faf"
+    },
+    "docs/reference-styles/秋芝风/2号参考-拆解.md": {
+      "bytes": 3422,
+      "sha256": "0b811a5ba4fb5a93f11afd4fbf4dd9154836ec662dfb3a305a7faa4558d72ebc"
+    },
+    "docs/reference-styles/秋芝风/README.md": {
+      "bytes": 3357,
+      "sha256": "df79ecc192a6eff27bf5fbd93397a28ccbe4d9d9e3c4f079be31c473e198eb8b"
+    },
+    "docs/reference-styles/秋芝风/秋芝-拆解.md": {
+      "bytes": 27442,
+      "sha256": "df0b70ad82b2265cef7e5af06ffb40abd1fc0f6e45fdacb031db4dbd1651b439"
+    },
+    "docs/reference-styles/秋芝风/装修案例-历史配置.md": {
+      "bytes": 1409,
+      "sha256": "025c01d5478dd5010a517fa58535c4017df426d1815d06d1b4796b4ae725ab23"
+    },
+    "docs/reference-styles/红蓝几何动画风/README.md": {
+      "bytes": 13052,
+      "sha256": "0f23611d55ebb93b15092112dd0a786afc3a8693e62f88e18f0f44bda68a2883"
+    },
+    "docs/reference-styles/纯文案类/参考视频-拆解.md": {
+      "bytes": 14790,
+      "sha256": "bf24ff7c26baf3a3d2e83ec73b36a7e96cad999da7bf9c7689a236af49254bd1"
+    },
+    "docs/releases/v0.1.0.md": {
+      "bytes": 2973,
+      "sha256": "c2433b18e57675fc681b96540a57c4c519e1f79f06198ede46ba931d34f260ec"
+    },
+    "docs/releasing.md": {
+      "bytes": 4753,
+      "sha256": "a862c0fe0997f85f8bfc15d4d1de5370dc6f88eba91debb04b153cbe3846538b"
+    },
+    "docs/workflows/README.md": {
+      "bytes": 8664,
+      "sha256": "4a98a1a3e8b240948dc49acec8b71dc526cbef27d8afb10834dbe246dc1cc022"
+    },
+    "docs/workflows/asr-deployment.md": {
+      "bytes": 7472,
+      "sha256": "909ffea257ae4e28ee92f37b3d534caf199c22e985e04704cc7c3ce326423696"
+    },
+    "docs/workflows/broll-selection.md": {
+      "bytes": 7253,
+      "sha256": "1ecd1054c7aacb6654597704b5e688d40397e6846426e55ba7ecaf75563155a2"
+    },
+    "docs/workflows/chatcut-asr.md": {
+      "bytes": 9842,
+      "sha256": "fd01befc757c30728dcff44fdb525535faddb1e50903bb0f34b50a34d6ae626e"
+    },
+    "docs/workflows/context-loading-plan.md": {
+      "bytes": 1260,
+      "sha256": "d03c13428229cf4f8bac3d0e45b73a03da1db39f583fd0d0b3fefb51ea5e463c"
+    },
+    "docs/workflows/editing-contract-v1.md": {
+      "bytes": 8421,
+      "sha256": "079cbeb02e70d3742292d2660833a678e278a320b6d553f63d5cc500d8fabd1a"
+    },
+    "docs/workflows/editing-contract.md": {
+      "bytes": 2961,
+      "sha256": "06c8d6d39e700cfa5f19dd7abb6c576300ef70febdaa235b54a186d77f1ee1da"
+    },
+    "docs/workflows/intake.md": {
+      "bytes": 14731,
+      "sha256": "a8542a0a360a2537b0f7d6145e4212b1d26aaa6976dbfaeb53f31a9deee91bdf"
+    },
+    "docs/workflows/jianying-editing.md": {
+      "bytes": 7421,
+      "sha256": "326335052ace4f2e2c065badceb1b39768e1c5cd15f47b71cbd0e7e3f64ca7aa"
+    },
+    "docs/workflows/jianying-setup.md": {
+      "bytes": 1844,
+      "sha256": "9b4eaeb72eb2fc7e34b6f40f09bbc740d017efb494c413547c3298a81d193b63"
+    },
+    "docs/workflows/local-whisper-asr.md": {
+      "bytes": 5528,
+      "sha256": "6c2ea20a151f2bb8e07964fdd7f5577614f2e385586f3f7b877018a5fa560c94"
+    },
+    "docs/workflows/local-whisper-setup.md": {
+      "bytes": 4030,
+      "sha256": "9d66991ae6fe2ed0f9daa13363350461c1668cfd409269646283ce50303f7c76"
+    },
+    "docs/workflows/new-machine-setup.md": {
+      "bytes": 15287,
+      "sha256": "65228135c3e35b29817c22f10d1662c0b469de18c121b35795a36750e334a30b"
+    },
+    "docs/workflows/packaging-broll-execution.md": {
+      "bytes": 5338,
+      "sha256": "3b51f1db789b455d5b14f638288798c64acee3c8af7739d0b4008a04f86170f0"
+    },
+    "docs/workflows/packaging-broll.md": {
+      "bytes": 4850,
+      "sha256": "d4c90ad262050ee2e687b8f068f3a2b050c66cb2103dc902b01903573d3578b8"
+    },
+    "docs/workflows/resolve-editing.md": {
+      "bytes": 4554,
+      "sha256": "8dd07dbc763ee7f5d7ee3e6580eef860de53d57794d4f581ab87db019e5d2eb5"
+    },
+    "docs/workflows/resolve-setup.md": {
+      "bytes": 2840,
+      "sha256": "2e8a0f81a176715853b472ff0a080f8fd595f905965646fe434d0d8238b115fe"
+    },
+    "docs/workflows/rough-cut-defaults.md": {
+      "bytes": 10282,
+      "sha256": "27f2121b452909dd81f8815c029c0850ff8616c7fba5e97da5a2c565b8d9a207"
+    },
+    "docs/workflows/send-qq.md": {
+      "bytes": 1293,
+      "sha256": "9eb9359fe6d7a9bd1c6f7f974b3a6a4061ce81f866024a2c7a9346f25cee25b9"
+    },
+    "docs/workflows/subtitles.md": {
+      "bytes": 4256,
+      "sha256": "3d5d7414db7fc121b5d7054bd2233d34a700dc96a1ece4593dfafda3f3bc4763"
+    },
+    "docs/workflows/verification.md": {
+      "bytes": 3802,
+      "sha256": "dd6c730093a5d3ee852d1e251ba95b5811e3cfb3d69af874792eb2d15d297c51"
+    },
+    "docs/workflows/video-editing.md": {
+      "bytes": 7484,
+      "sha256": "ecad66c4291f2d99dbfe76fb7474a094573633d15f1224ef4695593dd9c78d6a"
+    },
+    "docs/workflows/visual-selection-execution.md": {
+      "bytes": 9825,
+      "sha256": "f80c3cdbd3e79e8e732366ff24bc0cc92f1e693dd219280d92e57db26983d385"
+    },
+    "docs/workflows/visual-selection.md": {
+      "bytes": 8993,
+      "sha256": "a0f795588f700f1f928bbf5418aabeb056036232021d9a2ed79d8545afc85af4"
+    },
+    "docs/workflows/visual-vlog.md": {
+      "bytes": 10868,
+      "sha256": "7f813aef4a70debb2900929476b4ae76541145a5055b1429425cd050d437dae9"
+    },
+    "package.json": {
+      "bytes": 2888,
+      "sha256": "bb582388b5086fd23bb6b7dc1c77bd49a3ff278a2e267de90c60f03318b81673"
+    },
+    "release/export-policy.json": {
+      "bytes": 2882,
+      "sha256": "8f25ec93f9f3d9e76d05097205713b8c13ee4d98d4127a4e635ccff4f209c1e1"
+    },
+    "release/templates/README.md": {
+      "bytes": 3503,
+      "sha256": "f10e7ab2c82e6e742b32c4054c13894cbd0a530e4bc203b5b115f1b6d60abf2a"
+    },
+    "release/templates/Root.tsx": {
+      "bytes": 1250,
+      "sha256": "a2ff2eb4085398a175a499efe78f0882aafaf871604f916eb396cf53b4fd7c10"
+    },
+    "release/templates/capabilities.md": {
+      "bytes": 1289,
+      "sha256": "61f1e505fa9f858037c869cf6a64c46a6228118069d32149c165648beb0350ee"
+    },
+    "release/templates/catalog.json": {
+      "bytes": 36,
+      "sha256": "a01a99aec6747e1ded40bd8078765193b64bb008bc7c6fe5c8338ca9dcd78995"
+    },
+    "release/templates/public-media.md": {
+      "bytes": 491,
+      "sha256": "3a5728484a8aed7fbb0d58cff667ada36d929b84a80a3583bf2cd578c4ffdffa"
+    },
+    "release/templates/sfx-download-list.md": {
+      "bytes": 1041,
+      "sha256": "4e86d73be8193829871aec161ecfa98bbc515ac52a033e1e61d4f13ba5f79c2e"
+    },
+    "release/templates/srt.ts": {
+      "bytes": 426,
+      "sha256": "44c5fc5027fdcc309abc73239d0b67c66362a0926fe985397f5deb3d928b006b"
+    },
+    "release/templates/tools-README.md": {
+      "bytes": 1367,
+      "sha256": "0f05b7a1573f36f34d8f5a11126d34ba45c976dc7d51c11dd8e133444099f7e9"
+    },
+    "release/templates/user-sfx-assets.md": {
+      "bytes": 1196,
+      "sha256": "a9cf5e12c92a8fa4f863eb2b44d39b4e4f11d8d97304c8f46dbb0fb7f22fa235"
+    },
+    "remotion-clone/package-lock.json": {
+      "bytes": 108238,
+      "sha256": "18bf675c1f7f2aa3a92674511e72d347a70c19cafb082de00fef2c4f819c2e2d"
+    },
+    "remotion-clone/package.json": {
+      "bytes": 806,
+      "sha256": "9d7f7f46fdbb5c2205ac44a4859ac0a18d773bd06dbd8e47a10560e2a662f39d"
+    },
+    "remotion-clone/public/README.md": {
+      "bytes": 491,
+      "sha256": "3a5728484a8aed7fbb0d58cff667ada36d929b84a80a3583bf2cd578c4ffdffa"
+    },
+    "remotion-clone/public/sfx/catalog.json": {
+      "bytes": 36,
+      "sha256": "a01a99aec6747e1ded40bd8078765193b64bb008bc7c6fe5c8338ca9dcd78995"
+    },
+    "remotion-clone/remotion.config.ts": {
+      "bytes": 116,
+      "sha256": "e626ed30b943f4a8147a45d282d6e5e41117430566f4d03ef1371d64fc7c2b46"
+    },
+    "remotion-clone/review/workflow-flash/README.md": {
+      "bytes": 3371,
+      "sha256": "5a365c9ee248816487557e5563ffb6e64f926e4f638923af38fd4dff1e50477a"
+    },
+    "remotion-clone/scripts/import-user-sfx.py": {
+      "bytes": 4255,
+      "sha256": "9cd6f2e80f7e07eef4ff9bb3bdd648b579f5adcba5f82b948cfc7bec63ac15be"
+    },
+    "remotion-clone/scripts/inspect-production-input.ps1": {
+      "bytes": 5545,
+      "sha256": "0b824b4488d5df59bcc7170e63943ccf924650fccc21b6b128e56fee49599709"
+    },
+    "remotion-clone/scripts/render-review.ps1": {
+      "bytes": 4389,
+      "sha256": "c09044efa6a8e8128d3c61ad660919370d181cf0671bdceeec893752dad2f0b8"
+    },
+    "remotion-clone/scripts/review-project.ps1": {
+      "bytes": 4637,
+      "sha256": "eb8d91605a57c7a7bdd3670dc921a4cfe7649c51b4b7efecc518319fa537edcc"
+    },
+    "remotion-clone/src/Root.tsx": {
+      "bytes": 1250,
+      "sha256": "a2ff2eb4085398a175a499efe78f0882aafaf871604f916eb396cf53b4fd7c10"
+    },
+    "remotion-clone/src/components/AnnotationLine.tsx": {
+      "bytes": 2026,
+      "sha256": "8b014411d50c5b67ef9236687717cdacab92a6c5336e2da7151b49c9ab29c5ac"
+    },
+    "remotion-clone/src/components/ArollToCircularAvatarTransition.tsx": {
+      "bytes": 2600,
+      "sha256": "f76ba30e568a1e16e88bac7e37f6b613bb65acdd4f242a5aa5d7b6621af25945"
+    },
+    "remotion-clone/src/components/CaptionBar.tsx": {
+      "bytes": 4895,
+      "sha256": "7118cb3131f3a6fb697f8e58fe4f457908270089071d1cef43f1164d5c9b497b"
+    },
+    "remotion-clone/src/components/CircularAvatar.tsx": {
+      "bytes": 3393,
+      "sha256": "fe5f2a19c7341a7d34375f4d15f29833c9135433616ae36e0567b3aadf7910d5"
+    },
+    "remotion-clone/src/components/CursorPointer.tsx": {
+      "bytes": 6312,
+      "sha256": "5deccc2562d1be40f0f9d288a01d57685dbd1c1934cfe279fce5f8008e9a8e13"
+    },
+    "remotion-clone/src/components/GlowTitle.tsx": {
+      "bytes": 2917,
+      "sha256": "b9f2e97d4f23efad66a315cb64caa68b06be9c9d8223fa1071b2f85a7722fcba"
+    },
+    "remotion-clone/src/components/HighlightBox.tsx": {
+      "bytes": 3393,
+      "sha256": "0ef69f95d01a192796c842d25efc38d47a639a9edf04a6a009d796777126c0dc"
+    },
+    "remotion-clone/src/components/HighlightTag.tsx": {
+      "bytes": 4682,
+      "sha256": "1a48683f257bba6cf0e523399dbe2626863bcfb4dcf82c2d0159b4f8393da309"
+    },
+    "remotion-clone/src/components/RoundedUIFrame.tsx": {
+      "bytes": 8410,
+      "sha256": "7c9c601bfa4c9fa542555e884644733b55efcd71ec5757c0d5eb1e40d202215a"
+    },
+    "remotion-clone/src/components/StepFlowBar.tsx": {
+      "bytes": 4068,
+      "sha256": "d0b16c567ba2823819125410dcc3295ddceb45306b73f06ba7ed675cf7aec566"
+    },
+    "remotion-clone/src/components/StepList.tsx": {
+      "bytes": 4008,
+      "sha256": "c2ac91e163b4a899de636a8aa6f98656c7d4911b085aae01f9c5899502c05346"
+    },
+    "remotion-clone/src/components/TextureBackground.tsx": {
+      "bytes": 2447,
+      "sha256": "d70f308b512703628d06d7571f10f30bfe71dbddd77397dfb0db61b024a40221"
+    },
+    "remotion-clone/src/data/srt.ts": {
+      "bytes": 426,
+      "sha256": "44c5fc5027fdcc309abc73239d0b67c66362a0926fe985397f5deb3d928b006b"
+    },
+    "remotion-clone/src/index.ts": {
+      "bytes": 109,
+      "sha256": "8ad7cfb50e32546485a1a2ef5e468e5b6bdee2bc5c9b92d08882f96e3750b4a3"
+    },
+    "remotion-clone/src/lib/keyframes.ts": {
+      "bytes": 749,
+      "sha256": "0ccf01f962e8c18a003661c1afd76cde4d93372104b7e60e18ff7c65cfa177dd"
+    },
+    "remotion-clone/src/lib/theme.ts": {
+      "bytes": 3838,
+      "sha256": "3489b95e91106c545c9657299ee47ce2632b45fef620e09e109d94bb4dbc1c42"
+    },
+    "remotion-clone/src/styles/duotone.ts": {
+      "bytes": 840,
+      "sha256": "9ba4816a6d4ada630456a422657d4a9ca2cd15ac56f58b97f09094fdfdaafca6"
+    },
+    "remotion-clone/src/styles/matte-blue-green.ts": {
+      "bytes": 734,
+      "sha256": "8671c03494ce646109afa586c5728727851c6b907c332c465b2d89bca035d97b"
+    },
+    "remotion-clone/src/styles/matte-green-blue.ts": {
+      "bytes": 585,
+      "sha256": "1d22907c810c72e796435fb3fe1830edab827b4112e189c3d24b9254b4e057cc"
+    },
+    "remotion-clone/src/styles/red-blue-geometry.ts": {
+      "bytes": 537,
+      "sha256": "828f02a29b7fa960dafa4565ae7f7d084c810458785f4ca205d6743a82a88ee4"
+    },
+    "remotion-clone/src/styles/token-matte-green-blue.ts": {
+      "bytes": 1114,
+      "sha256": "1fa374a04657abd0c284c0aa04aad15b1d7cb63e5fd7506e7303c13e82d44217"
+    },
+    "remotion-clone/tsconfig.json": {
+      "bytes": 328,
+      "sha256": "55e1b2bbaf6a520a83402ce32878016e5fc4480bfdf9f7c6f322191bc94616bc"
+    },
+    "scripts/editing/cli.cjs": {
+      "bytes": 5907,
+      "sha256": "5b82cfe6c057081abb5c496054e3c07385fb0b6b5d17c7bb845015fb8b4fb763"
+    },
+    "scripts/editing/contract.cjs": {
+      "bytes": 14623,
+      "sha256": "b22adf5e2724e99ca1c3c04813213ca2435ab014f28acb74f559fcab124b2e5d"
+    },
+    "scripts/editing/contract.test.cjs": {
+      "bytes": 14957,
+      "sha256": "6163ff10f6f6819e87a786d1c38b6bafd2af5f61328493c2145b19223b463edf"
+    },
+    "scripts/editing/subtitles.cjs": {
+      "bytes": 5436,
+      "sha256": "c6ca21abb4e2ce5e4be1a2b337e422c67b74de8ea621aea0f3e82576c235d149"
+    },
+    "scripts/release/release.py": {
+      "bytes": 11887,
+      "sha256": "a01275f4a98e87ec5b68fcb2fed2db8c283a12d9696392c60d102e9921d50aa8"
+    },
+    "scripts/release/test_release.py": {
+      "bytes": 5638,
+      "sha256": "5a1a7b270b941cc29b653e5008d3dd0674d77a1572e529214149eda8896081cf"
+    },
+    "scripts/setup/activate.ps1": {
+      "bytes": 520,
+      "sha256": "be1170212eedf4006d95f140de0299e9e8dc2a81978a5db685ffe69620c38bf2"
+    },
+    "scripts/setup/configure-local-asr.py": {
+      "bytes": 3340,
+      "sha256": "58511169ccf815cdf74e0341db54098e1ead7db193ad8b4faa771af6205975d9"
+    },
+    "scripts/setup/doctor.ps1": {
+      "bytes": 399,
+      "sha256": "3ac75f65483749277d59720a9652b6e2aaf69ac6e0fb8b20f388c3dc370a12b8"
+    },
+    "scripts/setup/environment.ps1": {
+      "bytes": 9114,
+      "sha256": "392cb645cd7cf2509916d2f905c852b35584f5b4442d0483e61a474cbfcd14b1"
+    },
+    "scripts/setup/install-remotion.ps1": {
+      "bytes": 1098,
+      "sha256": "965b7bd995d3c9b200c66222695c5fa15f29a5cea3d75be2f72a8d624c4068ec"
+    },
+    "scripts/setup/test-environment.ps1": {
+      "bytes": 4640,
+      "sha256": "cf4bf3c5c174342a6b9168c802cceb54f4b238f06380a24afdef96fd0d267c12"
+    },
+    "scripts/setup/test_configure_local_asr.py": {
+      "bytes": 3247,
+      "sha256": "a77f6203c4ced0ca645ce9b90d8a791f752a8c6cdc0056a9a8fdefe3a86137f6"
+    },
+    "tools/README.md": {
+      "bytes": 1361,
+      "sha256": "ff646a9fda3ce3925e6282e6c7bcf8ae47c6b9ced32c7b632c6eb5ae17fa4762"
+    },
+    "video_editing/broll_adapter.cjs": {
+      "bytes": 1569,
+      "sha256": "67fbfbd72f208fba049c4c05a6e7a9091ceb071c3d50ba3865461b4421c1e028"
+    },
+    "video_editing/chatcut_bridge.py": {
+      "bytes": 10027,
+      "sha256": "463047d8bebce2614a50680716a06526c616a285ea74eade0929bde383af7205"
+    },
+    "video_editing/common.cjs": {
+      "bytes": 2530,
+      "sha256": "396e4275abae4ac360b563154a0549017bc94bc5a7cf4855791f071266d88d5c"
+    },
+    "video_editing/download_srt.cjs": {
+      "bytes": 2550,
+      "sha256": "37104b0ab28a5adb5a3483aec9d8655b95b2606a5b01fcf359ba5ef0b083cf94"
+    },
+    "video_editing/editing.cjs": {
+      "bytes": 10591,
+      "sha256": "517be206316c2bc6eef76070dfed9b60ad8130e5b1c09834cfaf11bf18361607"
+    },
+    "video_editing/handoff.cjs": {
+      "bytes": 2911,
+      "sha256": "f2db500b38497b5fc8516db821a024d3fcb81dafdde243b9e8fc85c047b5c8c0"
+    },
+    "video_editing/jianying.test.cjs": {
+      "bytes": 2560,
+      "sha256": "7321d77c82d92d4c4a6bdd99a07975918cbfd0e189a97a1a2013eafae49062ee"
+    },
+    "video_editing/jianying_adapter.cjs": {
+      "bytes": 4606,
+      "sha256": "eb5576f3ac540b6495dfe7e00bf22607573c9407463f72f0ab8fa624a96c529d"
+    },
+    "video_editing/jianying_backend.py": {
+      "bytes": 6614,
+      "sha256": "dfd29bcc1288871593ee953d284ef722e1f9e0496479d6cd3268d4ed6bcf64f5"
+    },
+    "video_editing/jianying_install.py": {
+      "bytes": 4700,
+      "sha256": "84778c34b9107f7a7fde0d5c6d50af197c266248155db294c9c8c6c9b836ec0a"
+    },
+    "video_editing/local_asr_chunks.py": {
+      "bytes": 5502,
+      "sha256": "610031afd2b0202775b093f997d83d3d9db8b9d9747f0e0004bf530e3eafd571"
+    },
+    "video_editing/local_asr_quality.py": {
+      "bytes": 4629,
+      "sha256": "73adfbaaad3207728247a8927a1b96887dc13481a5deae364aab95a16ef4c409"
+    },
+    "video_editing/local_whisper.py": {
+      "bytes": 9333,
+      "sha256": "4e72f73411f86f41e1a4ceeeeaf91ab66e3f5bd61f8b205e6d30ae453c8fb2c1"
+    },
+    "video_editing/media_roles.cjs": {
+      "bytes": 4863,
+      "sha256": "d8b90207ba8ae2fb3b73986cd73b9c7a666c03526e799b4ea7b9ba7ae27dc13a"
+    },
+    "video_editing/media_roles.test.cjs": {
+      "bytes": 3200,
+      "sha256": "d2bf5216b9b7acc66c15f35df3aa3bd5c954377d0bda677c3b4f8b1d048745a7"
+    },
+    "video_editing/packaging_broll.cjs": {
+      "bytes": 17158,
+      "sha256": "d428fdd87017dbb294bca0fb829cd5c470b44c432bf66bec42bf6d8d89c3bf5e"
+    },
+    "video_editing/packaging_broll.test.cjs": {
+      "bytes": 12093,
+      "sha256": "e8d3beb98f5377460e05f3c4135d188c1fef8d4c9c8d3af402050571f3f0e39e"
+    },
+    "video_editing/pipeline.test.cjs": {
+      "bytes": 11531,
+      "sha256": "7020d843d2b93b7f4d5a0626327de3064460cb9cd96648c07d64f33c621e9f20"
+    },
+    "video_editing/resolve_adapter.py": {
+      "bytes": 11974,
+      "sha256": "c89216aa3aea7267d77d6efb28e94cabca2642dcfa6785feedc88953bec70825"
+    },
+    "video_editing/resolve_smoke.py": {
+      "bytes": 7075,
+      "sha256": "8fb086b68f2b01e38980f75d5a3a384a6f48995cc6c4277884d6190676e99772"
+    },
+    "video_editing/rough_cut.py": {
+      "bytes": 3864,
+      "sha256": "2531a9e2da5f41a0e8a6052ffdcfe29c917e4368e04bc3775e8e638c0d756978"
+    },
+    "video_editing/source_timing.py": {
+      "bytes": 10302,
+      "sha256": "dbb77f368f6033d9aa8210a46a80b508b66d22a8ac197f351bafae9d8c2dd4a3"
+    },
+    "video_editing/test_chatcut_bridge.py": {
+      "bytes": 4340,
+      "sha256": "015ab4b5f2ede9aafddfba83ded0fab271fcc7db2e3e281ccec785e78609c1c5"
+    },
+    "video_editing/test_jianying.py": {
+      "bytes": 4463,
+      "sha256": "353b074c018c787fd9e068753b9b8edfa85249fc222e88d96cca0d7646e11297"
+    },
+    "video_editing/test_local_asr_chunks.py": {
+      "bytes": 3633,
+      "sha256": "195765df8ecd269e2ae9c457013d3837946dd2b8b4e15303fcdfbdf42eadd83f"
+    },
+    "video_editing/test_local_asr_quality.py": {
+      "bytes": 3885,
+      "sha256": "4af7a8d854b0f0d3973a5ef210d3033e7dd3fbc90ba7122c9a641c495b49b5c4"
+    },
+    "video_editing/test_local_whisper.py": {
+      "bytes": 5149,
+      "sha256": "1581b0c74e659b9bf705c375ce62351cc1c9f45f84914a8ab5d1d463ddb9a545"
+    },
+    "video_editing/test_resolve.py": {
+      "bytes": 7697,
+      "sha256": "5bc36b326e6bbd0ac43a70967ef40a6e16a0884dc3e4581e4dece89c7eb350ba"
+    },
+    "video_editing/test_resolve_smoke.py": {
+      "bytes": 2480,
+      "sha256": "f3f0bff416f49db762d565cc7bb709566d7cf4b0279f776acc070c5c8c494135"
+    },
+    "video_editing/test_rough_cut.py": {
+      "bytes": 3499,
+      "sha256": "1e9a611e52faf0f5a11b9015e4877a0288e0ce535bd0c7287a593925dec9a671"
+    },
+    "video_editing/test_source_timing.py": {
+      "bytes": 5498,
+      "sha256": "304d85045e32f989bf7b6bb983448d43c1ee10a79200418abbb44c77201513a8"
+    },
+    "video_editing/visual_workflow.cjs": {
+      "bytes": 27339,
+      "sha256": "13d0f8f7a2bdb9e3ebd850f81375f11570dbfe0d81c4a150a2dd60311c8c9923"
+    },
+    "video_editing/visual_workflow.test.cjs": {
+      "bytes": 19161,
+      "sha256": "2fd44a7093e0923425b4244a34118f9e73fdb9d6f85648436072274a17ed90ed"
+    },
+    "video_editing/voice_adapter.cjs": {
+      "bytes": 5846,
+      "sha256": "add39a9b33395fbfaf00130ff4b47516d909fcdfcd4aa71f9537d80b1729d724"
+    }
+  },
+  "policySha256": "8f25ec93f9f3d9e76d05097205713b8c13ee4d98d4127a4e635ccff4f209c1e1",
+  "schemaVersion": 1,
+  "sourceCommit": "7b9ec60572d76755aa5442441ae633786afb5115",
+  "version": "0.1.0"
+}

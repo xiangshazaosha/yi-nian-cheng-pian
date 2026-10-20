@@ -1,0 +1,2 @@
+# Preserve release manifest bytes across Windows/macOS/Linux clones.
+* -text

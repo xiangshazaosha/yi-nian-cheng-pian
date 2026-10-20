@@ -1,0 +1,25 @@
+一念成片 · Yi Nian Cheng Pian — 权利范围与归属说明
+
+公开维护者：笑爷 / xiangshazaosha（GitHub ID 267697669）
+项目来源：https://github.com/xiangshazaosha/yi-nian-cheng-pian
+Copyright (c) 2026 相应作者及权利人；各作者保留权利，不发生版权转让。
+
+本项目依法有权许可的原创受保护表达，包括 Agent 项目规则、工作流文档、
+自有适配器、剪辑工具、组件、发布脚本及示例，明确采用根目录 LICENSE：
+笑爷非商业同许可源码公开许可 2.0（LicenseRef-Xiaoye-NC-Reciprocal-2.0）。
+这是非商业源码公开（Source-available）许可，不是 OSI 标准开源许可。
+
+本许可不覆盖第三方软件、模型、字体、音乐、原素材、客户数据、独立作品、
+一般思路、方法或接口概念，也不推定全部 AI 生成内容具有独占著作权。
+历史有效授权不被追溯撤回；见 docs/LICENSE-HISTORY.md。
+
+ChatCut Desktop、Remotion、whisper.cpp、FFmpeg、pyJianYingDraft 等各自的
+版权及许可保持独立，详见 THIRD-PARTY-NOTICES.md。我们的商用授权不能
+替代这些第三方的授权，也不能限制用户独立使用其原许可允许的部分。
+本项目不是上述产品的官方版本、分支或授权经销商，不表示官方背书。
+名称仅用于合理标识兼容对象，不授予商标营销权。
+
+公开版本不分发真实制作字幕、客户材料、审片回执、账号配置、安装包、模型
+或旧 ChatCut helper 改写脚本；不能据此声称所有来源及权属已获法律认证。
+保留 LICENSE、NOTICE、适用第三方声明、来源署名及修改说明，提供匹配版本
+的完整对应源码。免责声明不替代授权，不排除法律不允许排除的责任。

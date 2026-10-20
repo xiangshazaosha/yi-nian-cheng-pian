@@ -1,0 +1,24 @@
+{
+  "dependencies": {
+    "@remotion/cli": "4.0.491",
+    "@remotion/compositor-win32-x64-msvc": "4.0.491",
+    "react": "^18.3.0",
+    "react-dom": "^18.3.0",
+    "remotion": "4.0.491"
+  },
+  "devDependencies": {
+    "@types/react": "^18.3.0",
+    "typescript": "^5.4.0"
+  },
+  "license": "SEE LICENSE IN ../LICENSE",
+  "name": "remotion-clone",
+  "private": true,
+  "scripts": {
+    "inspect:input": "powershell -NoProfile -ExecutionPolicy Bypass -File scripts/inspect-production-input.ps1",
+    "render:review": "powershell -NoProfile -ExecutionPolicy Bypass -File scripts/render-review.ps1",
+    "review:project": "powershell -NoProfile -ExecutionPolicy Bypass -File scripts/review-project.ps1",
+    "studio": "remotion studio src/index.ts",
+    "typecheck": "tsc --noEmit"
+  },
+  "version": "1.0.0"
+}

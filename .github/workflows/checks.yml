@@ -1,0 +1,29 @@
+name: Public source checks
+on:
+  push:
+  pull_request:
+  workflow_dispatch:
+permissions:
+  contents: read
+jobs:
+  verify:
+    if: github.event.repository.name == 'yi-nian-cheng-pian' && github.event.repository.private == false
+    runs-on: windows-latest
+    steps:
+      - uses: actions/checkout@v4
+      - uses: actions/setup-node@v4
+        with:
+          node-version: '22'
+      - uses: actions/setup-python@v5
+        with:
+          python-version: '3.11'
+      - run: npm run release:test
+      - run: npm run release:check
+      - run: npm run setup:test
+      - run: npm run edit:test
+      - run: npm run asr:test
+      - run: npm run video:test
+      - run: npm run visual:test
+      - run: npm run packaging:broll:test
+      - run: npm ci --prefix remotion-clone
+      - run: npm run remotion:typecheck
